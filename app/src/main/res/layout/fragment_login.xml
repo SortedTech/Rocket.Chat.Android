@@ -8,6 +8,7 @@
     android:padding="@dimen/margin_8"
     tools:context="chat.rocket.android.fragment.server_config.LoginFragment">
 
+
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,6 +40,7 @@
                 android:layout_height="48dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:scaleType="fitXY"
+                android:visibility="invisible"
                 app:layout_constraintBottom_toTopOf="@+id/text_input_username"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toLeftOf="@+id/btn_login_with_facebook"
@@ -51,6 +53,7 @@
                 android:layout_height="48dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:scaleType="fitXY"
+                android:visibility="invisible"
                 app:layout_constraintBottom_toTopOf="@+id/text_input_username"
                 app:layout_constraintLeft_toRightOf="@+id/btn_login_with_twitter"
                 app:layout_constraintRight_toLeftOf="@+id/btn_login_with_github"
@@ -61,6 +64,7 @@
                 android:id="@+id/btn_login_with_github"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:visibility="invisible"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:scaleType="fitXY"
                 app:layout_constraintBottom_toTopOf="@+id/text_input_username"
@@ -75,6 +79,7 @@
                 android:layout_height="48dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:scaleType="fitXY"
+                android:visibility="invisible"
                 app:layout_constraintBottom_toTopOf="@+id/text_input_username"
                 app:layout_constraintLeft_toRightOf="@+id/btn_login_with_github"
                 app:layout_constraintRight_toRightOf="parent"

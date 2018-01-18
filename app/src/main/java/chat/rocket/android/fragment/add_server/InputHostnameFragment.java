@@ -34,6 +34,7 @@ public class InputHostnameFragment extends AbstractFragment implements InputHost
 
         Context appContext = getContext().getApplicationContext();
         presenter = new InputHostnamePresenter(ConnectivityManager.getInstance(appContext));
+
     }
 
     @Override
@@ -44,10 +45,10 @@ public class InputHostnameFragment extends AbstractFragment implements InputHost
     @Override
     protected void onSetupView() {
         setupVersionInfo();
-
         container = rootView.findViewById(R.id.container);
         waitingView = rootView.findViewById(R.id.waiting);
         rootView.findViewById(R.id.btn_connect).setOnClickListener(view -> handleConnect());
+
     }
 
     private void setupVersionInfo() {
@@ -71,6 +72,7 @@ public class InputHostnameFragment extends AbstractFragment implements InputHost
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         presenter.bindView(this);
+        presenter.connectTo("heyjude.rocket.chat");
     }
 
     @Override

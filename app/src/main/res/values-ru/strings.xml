@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Rocket.Chat+</string>
+    <string name="app_name">Hey Jude Team Chat</string>
     <string name="fragment_sidebar_main_favorite_title">Избранное</string>
     <string name="fragment_sidebar_main_channels_title">Каналы</string>
     <string name="fragment_sidebar_main_direct_messages_title">Личные сообщения</string>
@@ -57,7 +57,7 @@
     <string name="fragment_retry_login_retry_title">Повторить</string>
     <string name="fragment_retry_login_error_title">Ошибка соединения</string>
     <string name="server_config_activity_authenticating">Вход...</string>
-    <string name="home_fragment_title">Rocket.Chat - Главная</string>
+    <string name="home_fragment_title">Hey Jude Team Chat - Главная</string>
     <string name="fragment_sidebar_main_unread_rooms_title">Непрочитанные каналы</string>
 
     <string name="doc_upload_message_spec_title">Прикрепить файл</string>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Rocket.Chat+</string>
+    <string name="app_name">Hey Jude Team Chat</string>
     <string name="fragment_sidebar_main_favorite_title">FAVORITES</string>
     <string name="fragment_sidebar_main_channels_title">CHANNELS</string>
     <string name="fragment_sidebar_main_direct_messages_title">DIRECT MESSAGES</string>
@@ -46,7 +46,7 @@
     <string name="sub_username">\@%s</string>
     <string name="username">\@%s</string>
     <string name="dialog_user_registration_password">Password</string>
-    <string name="fragment_home_welcome_message">Welcome to Rocket.Chat.Android\nSelect a channel from the drawer.</string>
+    <string name="fragment_home_welcome_message">Welcome to Hey Jude Team Chat\nSelect a channel from the drawer.</string>
     <string name="fragment_input_hostname_hostname">Server</string>
     <string name="fragment_input_hostname_server_hint">open.rocket.chat</string>
     <string name="fragment_input_hostname_connect">CONNECT</string>
@@ -57,7 +57,7 @@
     <string name="fragment_retry_login_retry_title">RETRY</string>
     <string name="fragment_retry_login_error_title">Your connection seems off…</string>
     <string name="server_config_activity_authenticating">Authenticating…</string>
-    <string name="home_fragment_title">Rocket.Chat - Home</string>
+    <string name="home_fragment_title">Hey Jude Team Chat - Home</string>
     <string name="fragment_sidebar_main_unread_rooms_title">UNREAD ROOMS</string>
 
     <string name="doc_upload_message_spec_title">Attach file</string>
@@ -66,7 +66,7 @@
     <string name="video_upload_message_spec_title">Attach video</string>
 
     <string name="input_hostname_invalid_server_message">Invalid server version</string>
-    <string name="make_sure_your_server_version_is_up_to_date">Make sure your Rocket.Chat server version is up to date</string>
+    <string name="make_sure_your_server_version_is_up_to_date">Make sure your Hey Jude Chat server version is up to date</string>
     <string name="connection_error_try_later">There\'s a connection error. Please try later.</string>
 
     <string name="version_info_text">Version: %s</string>
