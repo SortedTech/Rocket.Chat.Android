@@ -72,7 +72,7 @@ public class InputHostnameFragment extends AbstractFragment implements InputHost
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         presenter.bindView(this);
-        presenter.connectTo("heyjude.rocket.chat");
+        presenter.connectTo("teamchat.heyjudeapp.com");
     }
 
     @Override

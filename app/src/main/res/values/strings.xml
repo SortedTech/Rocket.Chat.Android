@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hey Jude Team Chat</string>
+    <string name="app_name">Team Chat</string>
     <string name="fragment_sidebar_main_favorite_title">FAVORITES</string>
     <string name="fragment_sidebar_main_channels_title">CHANNELS</string>
     <string name="fragment_sidebar_main_direct_messages_title">DIRECT MESSAGES</string>
