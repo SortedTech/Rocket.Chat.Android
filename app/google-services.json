@@ -16,6 +16,40 @@
       "oauth_client": [
         {
           "client_id": "1020987621558-trk61fjrahho0ujtjap095p1jmi48pfq.apps.googleusercontent.com",
+<<<<<<< HEAD
+=======
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc7VYUdU6kRkoRTToiCn1rh-W0wJvhLWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020987621558:android:1551054db195f705",
+        "android_client_info": {
+          "package_name": "chat.rocket.android.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020987621558-trk61fjrahho0ujtjap095p1jmi48pfq.apps.googleusercontent.com",
+>>>>>>> c2e4d011e0e0344e26ed673ac064127fd2c6d851
           "client_type": 3
         }
       ],

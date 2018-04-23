@@ -6,8 +6,12 @@ import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.StaggeredGridLayoutManager
 
 /**
+<<<<<<< HEAD
  * Created by Filipe de Lima Brito (filipedelimabrito@gmail.com) on 9/21/17.
  * Source info: https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView
+=======
+ * Info: https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView
+>>>>>>> c2e4d011e0e0344e26ed673ac064127fd2c6d851
  */
 abstract class EndlessRecyclerViewScrollListener : RecyclerView.OnScrollListener {
     private var visibleThreshold = 5 // The minimum amount of items to have below of the current scroll position before loading more.
